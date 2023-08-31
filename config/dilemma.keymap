@@ -94,22 +94,22 @@
         number_layer {
             label = "NUMBER";
             bindings = <
-&trans  &none  &kp F10  &kp F11  &kp F12   &none   &none      &none  &kp KP_SLASH  &kp KP_MULTIPLY  &kp KP_MINUS      &none
-&trans  &none   &kp F7   &kp F8   &kp F9   &none   &none  &kp KP_N7     &kp KP_N8        &kp KP_N9   &kp KP_PLUS      &none
-&trans  &none   &kp F4   &kp F5   &kp F6   &none   &none  &kp KP_N4     &kp KP_N5        &kp KP_N6     &kp ENTER  &kp ENTER
-&trans  &none   &kp F1   &kp F2   &kp F3   &none   &none  &kp KP_N1     &kp KP_N2        &kp KP_N3     &kp ENTER  &kp ENTER
-                &trans   &trans   &trans  &trans   &none      &none     &kp KP_N0       &kp KP_DOT
-                &trans    &none   &trans  &trans  &trans     &trans         &none           &trans
+                &trans  &none  &kp F10  &kp F11  &kp F12   &none        &kp HOME    &none         &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS    &none
+                &trans  &none   &kp F7   &kp F8   &kp F9   &none        &kp END     &kp KP_N7     &kp KP_N8        &kp KP_N9        &kp KP_PLUS     &none
+                &trans  &none   &kp F4   &kp F5   &kp F6   &none        &kp PG_UP   &kp KP_N4     &kp KP_N5        &kp KP_N6        &kp ENTER       &kp ENTER
+                &trans  &none   &kp F1   &kp F2   &kp F3   &none        &kp PG_DN   &kp KP_N1     &kp KP_N2        &kp KP_N3        &kp ENTER       &kp ENTER
+                &trans   &trans   &trans  &trans                        &trans      &trans        &kp KP_N0        &kp KP_DOT
+                &trans    &none   &trans  &trans                        &trans      &trans        &none            &trans
             >;
         };
 
         symbol_layer {
             label = "SYMBOL";
             bindings = <
-   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3      &bt BT_SEL 4         &bt BT_CLR       &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &bt BT_CLR
-&rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &rgb_ug RGB_TOG       &out OUT_USB       &out OUT_USB   &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG
-&rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &rgb_ug RGB_TOG       &out OUT_BLE       &out OUT_BLE   &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
-     &sys_reset            &none            &none            &none  &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_OFF  &ext_power EP_ON            &none            &none            &none       &sys_reset
+                &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3      &bt BT_SEL 4          &bt BT_CLR         &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &bt BT_CLR
+                &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &rgb_ug RGB_TOG       &out OUT_USB       &out OUT_USB       &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG
+                &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &rgb_ug RGB_TOG       &out OUT_BLE       &out OUT_BLE       &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
+                &sys_reset       &none            &none            &none             &ext_power EP_ON      &ext_power EP_OFF  &ext_power EP_OFF  &ext_power EP_ON            &none            &none            &none       &sys_reset
                                             &none            &none             &none              &none              &none             &none            &none            &none
                                             &none            &none             &none              &none              &none             &none            &none            &none
             >;
