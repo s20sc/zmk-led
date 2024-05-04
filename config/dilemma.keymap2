@@ -87,7 +87,7 @@
                 &kp ESC     AS(A)    AS(S)     AS(D)   AS(F)   AS(G)          AS(H)       AS(J)     AS(K)     AS(L)    AS(SEMI) AS(SQT)
                 &kp CAPS    AS(Z)    AS(X)     AS(C)   AS(V)   AS(B)          AS(N)       AS(M)     AS(COMMA) AS(DOT)  AS(FSLH) AS(BSLH)  
                 &kp INS     &kp DEL  &kp LSHFT  &lt 1 SPACE                   &lt 1 ENTER &kp BSPC  AS(LBKT)  AS(RBKT)          
-                &kp LALT    &kp RALT &kp LCTRL   &kp LGUI                     &kp UP    &kp RIGHT &kp LEFT    &kp DOWN
+                &kp LALT    &kp RALT &kp LCTRL   &kp LGUI                     &kp LEFT    &kp RIGHT &kp UP    &kp DOWN
             >;
         };
 
