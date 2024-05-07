@@ -55,28 +55,28 @@
 
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp N8 &kp N6 &kp N0 &kp N0 &kp N0 &kp N4 &kp N2 &kp N0 &kp N0 &kp N0>;
+            bindings = <&macro_tap &kp N1 &kp N8 &kp N6 &kp N0 &kp N0 &kp N0 &kp N4 &kp N2 &kp N0 &kp N0 &kp N0>;
         };
         phone_185: phone_185 {
             // 18515879420
 
             compatible = "zmk,behavior-macro";
             #binding-cells = <1>;
-            bindings = <&kp N1 &kp N8 &kp N5 &kp N1 &kp N5 &kp N8 &kp N7 &kp N9 &kp N4 &kp N2 &kp N0>;
+            bindings = <&macro_tap &kp N1 &kp N8 &kp N5 &kp N1 &kp N5 &kp N8 &kp N7 &kp N9 &kp N4 &kp N2 &kp N0>;
         }; 
         email_q: email_q {
             // 120469@qq.com
 
             compatible = "zmk,behavior-macro";
             #binding-cells = <2>;
-            bindings = <&kp N1 &kp N2 &kp N0 &kp N4 &kp N6 &kp N9 &kp AT &kp Q &kp Q &kp DOT &kp C &kp O &kp M>;
+            bindings = <&macro_tap &kp N1 &kp N2 &kp N0 &kp N4 &kp N6 &kp N9 &kp AT &kp Q &kp Q &kp DOT &kp C &kp O &kp M>;
         };
         email_a: email_a {
             // qinxue@icloud.com
 
             compatible = "zmk,behavior-macro";
             #binding-cells = <3>;
-            bindings = <&kp Q &kp I &kp N &kp X &kp U &kp E &kp AT &kp I &kp C &kp L &kp O &kp U &kp D &kp DOT &kp C &kp O &kp M>;
+            bindings = <&macro_tap &kp Q &kp I &kp N &kp X &kp U &kp E &kp AT &kp I &kp C &kp L &kp O &kp U &kp D &kp DOT &kp C &kp O &kp M>;
         };
     };
 
