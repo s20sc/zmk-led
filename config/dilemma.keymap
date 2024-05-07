@@ -50,7 +50,7 @@
     };
 
     macros {
-        macro_phone_186: macro_phone {
+        macro_phone_186: macro_phone_186 {
             // 18600042000
 
             label = "MACRO_PHONE_186";
@@ -58,7 +58,7 @@
             #binding-cells = <0>;
             bindings = <&kp N1 &kp N8 &kp N6 &kp N0 &kp N0 &kp N0 &kp N4 &kp N2 &kp N0 &kp N0 &kp N0>;
         };
-        macro_phone_185: macro_phone {
+        macro_phone_185: macro_phone_185 {
             // 18515879420
 
             label = "MACRO_PHONE_185";
@@ -74,7 +74,7 @@
             #binding-cells = <2>;
             bindings = <&kp N1 &kp N2 &kp N0 &kp N4 &kp N6 &kp N9 &kp AT &kp Q &kp Q &kp DOT &kp C &kp O &kp M>;
         };
-        macro_email_a: macro_email_g {
+        macro_email_a: macro_email_a {
             // qinxue@icloud.com
 
             compatible = "zmk,behavior-macro";
